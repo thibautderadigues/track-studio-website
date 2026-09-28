@@ -1,31 +1,31 @@
 /* ============ Fonts ============ */
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Thin.otf"); font-weight: 200; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-ThinItalic.otf"); font-weight: 200; font-style: italic; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Light.otf"); font-weight: 300; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-LightItalic.otf"); font-weight: 300; font-style: italic; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Book.otf"); font-weight: 400; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-BookItalic.otf"); font-weight: 400; font-style: italic; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Medium.otf"); font-weight: 500; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-MediumItalic.otf"); font-weight: 500; font-style: italic; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Semibold.otf"); font-weight: 600; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-SemiboldItalic.otf"); font-weight: 600; font-style: italic; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Bold.otf"); font-weight: 700; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-BoldItalic.otf"); font-weight: 700; font-style: italic; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Heavy.otf"); font-weight: 900; font-style: normal; }
-@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-HeavyItalic.otf"); font-weight: 900; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Thin.woff2") format("woff2"); font-display: swap; font-weight: 200; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-ThinItalic.woff2") format("woff2"); font-display: swap; font-weight: 200; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Light.woff2") format("woff2"); font-display: swap; font-weight: 300; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-LightItalic.woff2") format("woff2"); font-display: swap; font-weight: 300; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Book.woff2") format("woff2"); font-display: swap; font-weight: 400; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-BookItalic.woff2") format("woff2"); font-display: swap; font-weight: 400; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Medium.woff2") format("woff2"); font-display: swap; font-weight: 500; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-MediumItalic.woff2") format("woff2"); font-display: swap; font-weight: 500; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Semibold.woff2") format("woff2"); font-display: swap; font-weight: 600; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-SemiboldItalic.woff2") format("woff2"); font-display: swap; font-weight: 600; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Bold.woff2") format("woff2"); font-display: swap; font-weight: 700; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-BoldItalic.woff2") format("woff2"); font-display: swap; font-weight: 700; font-style: italic; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-Heavy.woff2") format("woff2"); font-display: swap; font-weight: 900; font-style: normal; }
+@font-face { font-family: "Cooper Hewitt"; src: url("../cooper-hewitt/CooperHewitt-HeavyItalic.woff2") format("woff2"); font-display: swap; font-weight: 900; font-style: italic; }
 
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Thin.otf"); font-weight: 200; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros ExtraLight.otf"); font-weight: 300; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Light.otf"); font-weight: 350; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros.otf"); font-weight: 400; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Italic.otf"); font-weight: 400; font-style: italic; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Medium.otf"); font-weight: 500; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Medium Italic.otf"); font-weight: 500; font-style: italic; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Bold.otf"); font-weight: 700; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Bold Italic.otf"); font-weight: 700; font-style: italic; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros ExtraBold.otf"); font-weight: 800; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Heavy.otf"); font-weight: 850; font-style: normal; }
-@font-face { font-family: "Caros"; src: url("../caros/cretype  Caros Black.otf"); font-weight: 900; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Thin.woff2") format("woff2"); font-display: swap; font-weight: 200; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-ExtraLight.woff2") format("woff2"); font-display: swap; font-weight: 300; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Light.woff2") format("woff2"); font-display: swap; font-weight: 350; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros.woff2") format("woff2"); font-display: swap; font-weight: 400; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Italic.woff2") format("woff2"); font-display: swap; font-weight: 400; font-style: italic; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Medium.woff2") format("woff2"); font-display: swap; font-weight: 500; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Medium-Italic.woff2") format("woff2"); font-display: swap; font-weight: 500; font-style: italic; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Bold.woff2") format("woff2"); font-display: swap; font-weight: 700; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Bold-Italic.woff2") format("woff2"); font-display: swap; font-weight: 700; font-style: italic; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-ExtraBold.woff2") format("woff2"); font-display: swap; font-weight: 800; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Heavy.woff2") format("woff2"); font-display: swap; font-weight: 850; font-style: normal; }
+@font-face { font-family: "Caros"; src: url("../caros/Caros-Black.woff2") format("woff2"); font-display: swap; font-weight: 900; font-style: normal; }
 
 /* ============ Tokens ============ */
 :root {
@@ -376,6 +376,7 @@ h2 {
 .service-copy {
   position: relative;
   z-index: 1;
+  order: 2;
 }
 .service-tile__sticker {
   position: absolute;
@@ -750,3 +751,4 @@ h2 {
   gap: 6px;
 }
 .footer__copyright-icon { width: 12px; height: 12px; filter: invert(1); }
+.faq-item__h { font: inherit; text-transform: none; letter-spacing: normal; }

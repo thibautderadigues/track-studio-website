@@ -1,20 +1,118 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-BE">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Track Studio — Creative Studio for Ambitious Brands</title>
-<meta name="description" content="Track Studio conçoit des sites web, du branding et du marketing digital pour des marques ambitieuses.">
+<title>Track Studio — Agence web &amp; marketing digital à Louvain-la-Neuve</title>
+<meta name="description" content="Track Studio, studio créatif à Louvain-la-Neuve : création de sites web et landing pages, branding et marketing digital pour les marques ambitieuses. Devis rapide.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://track-studio.be/">
+<meta name="theme-color" content="#121212">
+
+<!-- Favicons -->
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="icon" href="/favicon-96x96.png" type="image/png" sizes="96x96">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<!-- Partage réseaux sociaux -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="fr_BE">
+<meta property="og:site_name" content="Track Studio">
+<meta property="og:url" content="https://track-studio.be/">
+<meta property="og:title" content="Track Studio — Agence web &amp; marketing digital à Louvain-la-Neuve">
+<meta property="og:description" content="Sites web, landing pages et marketing digital pour les marques ambitieuses. Made in LLN.">
+<meta property="og:image" content="https://track-studio.be/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Track Studio — Creative studio for ambitious brands">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Chargement prioritaire (image du hero + polices des titres) -->
+<link rel="preload" href="assets/hero-bg.webp" as="image" type="image/webp" fetchpriority="high">
+<link rel="preload" href="cooper-hewitt/CooperHewitt-Heavy.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="caros/Caros.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="css/style.css">
+
+<!-- Données structurées (Google) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://track-studio.be/#organization",
+      "name": "Track Studio",
+      "url": "https://track-studio.be/",
+      "logo": "https://track-studio.be/icon-512.png",
+      "image": "https://track-studio.be/og-image.jpg",
+      "description": "Studio créatif à Louvain-la-Neuve : création de sites web et landing pages, branding et marketing digital.",
+      "slogan": "Creative studio for ambitious brands",
+      "priceRange": "€€",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Louvain-la-Neuve",
+        "postalCode": "1348",
+        "addressRegion": "Brabant wallon",
+        "addressCountry": "BE"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Louvain-la-Neuve" },
+        { "@type": "City", "name": "Bruxelles" },
+        { "@type": "Country", "name": "Belgique" }
+      ],
+      "founder": [
+        { "@type": "Person", "name": "Liory Prud'Homme" },
+        { "@type": "Person", "name": "Thibaut de Radiguès" }
+      ],
+      "knowsLanguage": ["fr", "en"],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Création de sites web et landing pages", "description": "Design UX/UI et développement de sites vitrines et landing pages." },
+            "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1900, "priceCurrency": "EUR" }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": { "@type": "Service", "name": "Marketing digital", "description": "Création de contenu et gestion des réseaux sociaux." },
+            "priceSpecification": { "@type": "UnitPriceSpecification", "minPrice": 500, "priceCurrency": "EUR", "unitText": "mois" }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://track-studio.be/#website",
+      "url": "https://track-studio.be/",
+      "name": "Track Studio",
+      "inLanguage": "fr-BE",
+      "publisher": { "@id": "https://track-studio.be/#organization" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "Quel délai estimé pour un site web ?", "acceptedAnswer": { "@type": "Answer", "text": "Comptez en moyenne 2 à 4 semaines pour un site vitrine, du premier échange à la mise en ligne. On vous donne un planning clair dès le devis validé." } },
+        { "@type": "Question", "name": "J'ai déjà un site web, c'est possible de l'améliorer ?", "acceptedAnswer": { "@type": "Answer", "text": "Bien sûr. On commence par un audit rapide (design, vitesse, référencement) pour voir ce qui vaut la peine d'être refait et ce qui peut simplement être amélioré, sans tout reconstruire." } },
+        { "@type": "Question", "name": "On est pas à l'aise devant la caméra, possible ?", "acceptedAnswer": { "@type": "Answer", "text": "Complètement. On adapte le format à votre aisance : voix off, motion design, captation discrète. Le but, c'est que le contenu vous ressemble, pas qu'il vous mette mal à l'aise." } },
+        { "@type": "Question", "name": "On communique via WhatsApp ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui, si c'est plus simple pour vous. On s'adapte à votre façon de travailler : WhatsApp, mail, appel ou passage direct au studio à LLN." } },
+        { "@type": "Question", "name": "Vous gérez aussi nos réseaux sociaux au quotidien ?", "acceptedAnswer": { "@type": "Answer", "text": "Oui, si besoin : création de contenu, planning de publication et gestion de la communauté. On s'adapte à votre rythme et à vos objectifs." } }
+      ]
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
 <header class="nav" id="nav">
   <div class="nav__inner">
-    <a href="#" class="nav__logo">
-      <img src="assets/logo-full.png" alt="Track Studio" class="nav__logo-mark">
+    <a href="/" class="nav__logo" aria-label="Track Studio — accueil">
+      <img src="assets/logo-full.webp" alt="Track Studio" class="nav__logo-mark" width="198" height="141">
     </a>
-    <nav class="nav__links" id="navLinks">
+    <nav class="nav__links" id="navLinks" aria-label="Navigation principale">
       <a href="#services">Services</a>
       <a href="#realisations">Réalisations</a>
       <a href="#temoignages">Témoignages</a>
@@ -32,7 +130,7 @@
 
   <section class="hero" id="hero">
     <div class="hero__bg">
-      <img src="assets/hero-bg.jpg" alt="" loading="eager">
+      <img src="assets/hero-bg.webp" alt="" width="1600" height="1067" fetchpriority="high">
     </div>
     <div class="hero__scrim"></div>
     <div class="hero__headline">
@@ -45,9 +143,9 @@
       </div>
       <h1 class="hero__title">Creative studio for ambitious brands</h1>
       <div class="hero__logos" aria-label="Ils nous font confiance">
-        <img src="assets/logo-partner-1.svg" alt="Logo partenaire" class="hero__logo-img">
+        <img src="assets/logo-partner-1.svg" alt="Sigmagency" class="hero__logo-img" width="135" height="24">
         <img src="assets/logo-passpass-1.svg" alt="Passpass" class="hero__logo-img">
-        <img src="assets/logo-partner-2.svg" alt="Logo partenaire" class="hero__logo-img">
+        <img src="assets/logo-partner-2.svg" alt="Snippets Studio" class="hero__logo-img" width="150" height="22">
       </div>
     </div>
     <div class="hero__foot">
@@ -55,7 +153,7 @@
         <p>Un site qui capte l'attention, une image qui vous ressemble. On construit ça ensemble, dès aujourd'hui.</p>
         <a href="#contact" class="btn btn--dark">
           Contactez-nous
-          <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
+          <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
         </a>
       </div>
     </div>
@@ -64,16 +162,28 @@
   <section class="services" id="services">
     <div class="services__stack">
 
-      <img src="assets/stack-peek.png" alt="" class="stack-peek">
+      <img src="assets/stack-peek.webp" alt="" class="stack-peek" width="1229" height="46" loading="lazy">
 
       <div class="stack-card stack-card--front">
-        <img src="assets/icon-web-3.svg" alt="" class="stack-card__globe">
+        <img src="assets/icon-web-3.svg" alt="" class="stack-card__globe" loading="lazy">
+        <div class="service-copy">
+          <div class="pill-stack">
+            <span aria-hidden="true" class="pill pill--ghost pill--blue">Nos services</span>
+            <span class="pill pill--solid pill--blue">Nos Services</span>
+          </div>
+          <h2>On donne enfin à votre entreprise l'image qu'elle mérite</h2>
+          <a href="#contact" class="btn btn--dark">
+            Contactez-nous
+            <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
+          </a>
+        </div>
+
         <div class="service-panel">
           <div class="service-panel__img">
-            <img src="assets/hero-forest.jpg" alt="Rivière en forêt">
+            <img src="assets/hero-forest.webp" alt="" width="800" height="1200" loading="lazy">
           </div>
           <div class="service-tile">
-            <img src="assets/sticker-websites.png" alt="" class="service-tile__sticker">
+            <img src="assets/sticker-websites.webp" alt="" class="service-tile__sticker" width="312" height="312" loading="lazy">
             <h3>Websites &amp; Landing pages</h3>
             <p>Des sites vitrines et landing pages pensés pour convertir, rapides à charger et faciles à faire évoluer.</p>
             <div class="tag-row">
@@ -83,7 +193,7 @@
             </div>
           </div>
           <div class="service-tile">
-            <img src="assets/sticker-marketing.png" alt="" class="service-tile__sticker">
+            <img src="assets/sticker-marketing.webp" alt="" class="service-tile__sticker" width="300" height="312" loading="lazy">
             <h3>Marketing digital</h3>
             <p>Une présence sur les réseaux qui vous ressemble, du contenu qui capte l'attention et une stratégie qui suit vos objectifs.</p>
             <div class="tag-row">
@@ -93,18 +203,6 @@
             </div>
           </div>
         </div>
-
-        <div class="service-copy">
-          <div class="pill-stack">
-            <span class="pill pill--ghost pill--blue">Nos services</span>
-            <span class="pill pill--solid pill--blue">Nos Services</span>
-          </div>
-          <h2>On donne enfin à votre entreprise l'image qu'elle mérite</h2>
-          <a href="#contact" class="btn btn--dark">
-            Contactez-nous
-            <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
-          </a>
-        </div>
       </div>
 
     </div>
@@ -113,7 +211,7 @@
   <section class="portfolio" id="realisations">
     <div class="portfolio__head">
       <div class="pill-stack">
-        <span class="pill pill--ghost pill--yellow">Nos services</span>
+        <span aria-hidden="true" class="pill pill--ghost pill--yellow">Nos services</span>
         <span class="pill pill--solid pill--yellow">Réalisations</span>
       </div>
       <h2>Des projets dont on est <br class="br-desktop">particulièrement fiers</h2>
@@ -121,16 +219,16 @@
 
     <div class="portfolio__grid">
       <a href="https://www.instagram.com/passpass.be" target="_blank" rel="noopener" class="portfolio__item" data-cursor-label="Marketing digital">
-        <img src="assets/portfolio-1.jpg" alt="Projet Passpass">
-        <img src="assets/logo-passpass-2.svg" alt="Passpass" class="portfolio__mark">
+        <img src="assets/portfolio-1.webp" alt="Projet Passpass : contenu pour les réseaux sociaux" width="1600" height="1135" loading="lazy">
+        <img src="assets/logo-passpass-2.svg" alt="" class="portfolio__mark" loading="lazy">
       </a>
       <a href="https://sigmagency.be" target="_blank" rel="noopener" class="portfolio__item" data-cursor-label="Design Home page + Marketing digital">
-        <img src="assets/portfolio-2.jpg" alt="Projet Sigmagency">
-        <img src="assets/logo-sigmagency.png" alt="Sigmagency" class="portfolio__mark portfolio__mark--wide">
+        <img src="assets/portfolio-2.webp" alt="Projet Sigmagency : design de la page d'accueil et marketing digital" width="900" height="1351" loading="lazy">
+        <img src="assets/logo-sigmagency.webp" alt="" class="portfolio__mark portfolio__mark--wide" width="541" height="96" loading="lazy">
       </a>
       <a href="https://creatlas.be" target="_blank" rel="noopener" class="portfolio__item" data-cursor-label="Site web">
-        <img src="assets/portfolio-3.jpg" alt="Projet Creatlas">
-        <img src="assets/logo-creatlas-new.png" alt="Creatlas" class="portfolio__mark portfolio__mark--wide">
+        <img src="assets/portfolio-3.webp" alt="Projet Creatlas : création du site web" width="900" height="1351" loading="lazy">
+        <img src="assets/logo-creatlas-new.webp" alt="" class="portfolio__mark portfolio__mark--wide" width="489" height="83" loading="lazy">
       </a>
     </div>
 
@@ -138,7 +236,7 @@
       <div class="portfolio__foot-block">
         <a href="#contact" class="btn btn--dark">
           Contactez-nous
-          <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
+          <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
         </a>
       </div>
     </div>
@@ -147,29 +245,29 @@
   <section class="about" id="about">
     <div class="about__head">
       <div class="pill-stack">
-        <span class="pill pill--ghost pill--light">About us</span>
+        <span aria-hidden="true" class="pill pill--ghost pill--light">About us</span>
         <span class="pill pill--solid pill--light">About us</span>
       </div>
       <h2>Une équipe qui ne fait pas <br class="br-desktop">les choses à moitié</h2>
     </div>
 
     <div class="about__photos">
-      <img src="assets/about-starburst.svg" alt="" class="about__starburst">
+      <img src="assets/about-starburst.svg" alt="" class="about__starburst" loading="lazy">
       <figure class="about__photo about__photo--left">
-        <img src="assets/team-liory.jpg" alt="Liory Prud'Homme">
-        <img src="assets/bubble-liory.png" alt="Liory Prud'Homme" class="bubble bubble--img">
+        <img src="assets/team-liory.webp" alt="Liory Prud'Homme, cofondatrice de Track Studio" width="600" height="900" loading="lazy">
+        <img src="assets/bubble-liory.webp" alt="" class="bubble bubble--img" width="500" height="149" loading="lazy">
       </figure>
-      <img src="assets/about-highfive.png" alt="" class="about__highfive">
+      <img src="assets/about-highfive.webp" alt="" class="about__highfive" width="400" height="315" loading="lazy">
       <figure class="about__photo about__photo--right">
-        <img src="assets/team-thibaut.jpg" alt="Thibaut de Radiguès">
-        <img src="assets/bubble-thibaut.png" alt="Thibaut de Radiguès" class="bubble bubble--img bubble--green">
+        <img src="assets/team-thibaut.webp" alt="Thibaut de Radiguès, cofondateur de Track Studio" width="600" height="876" loading="lazy">
+        <img src="assets/bubble-thibaut.webp" alt="" class="bubble bubble--img bubble--green" width="500" height="137" loading="lazy">
       </figure>
     </div>
 
     <div class="about__foot">
       <a href="#contact" class="btn btn--light">
         Contactez-nous
-        <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
+        <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
       </a>
       <p>On travaille ensemble ?</p>
     </div>
@@ -178,7 +276,7 @@
   <section class="testimonials" id="temoignages">
     <div class="testimonials__head">
       <div class="pill-stack">
-        <span class="pill pill--ghost pill--blue">Nos services</span>
+        <span aria-hidden="true" class="pill pill--ghost pill--blue">Nos services</span>
         <span class="pill pill--solid pill--blue">Témoignages</span>
       </div>
       <h2>Ils en parlent encore <br class="br-desktop">mieux que nous</h2>
@@ -189,16 +287,16 @@
 
       <div class="testimonial-card testimonial-card--front" id="testimonialCard">
         <div class="testimonial-card__media">
-          <img src="assets/testimonial-photo.jpg" alt="Client Track Studio" id="testimonialImg">
+          <img src="assets/testimonial-photo.webp" alt="Client de Track Studio" id="testimonialImg" width="1441" height="960" loading="lazy">
         </div>
-        <div class="testimonial-card__body">
+        <blockquote class="testimonial-card__body">
           <div class="testimonial-card__rating">
-            <img src="assets/stars-rating.svg" alt="5 étoiles">
+            <img src="assets/stars-rating.svg" alt="5 étoiles sur 5" loading="lazy">
             <span>Noté <strong>5/5</strong></span>
           </div>
           <p id="testimonialQuote">&ldquo;Le contenu créé pour nos réseaux sociaux correspond parfaitement à nos attentes. Track Studio a rapidement saisi notre style de communication et notre audience cible.&rdquo;</p>
-          <img src="assets/logo-sigmagency.png" alt="Sigmagency" class="testimonial-card__logo" id="testimonialLogo">
-        </div>
+          <img src="assets/logo-sigmagency.webp" alt="Sigmagency" class="testimonial-card__logo" id="testimonialLogo" width="541" height="96" loading="lazy">
+        </blockquote>
       </div>
     </div>
   </section>
@@ -206,65 +304,65 @@
   <section class="faq" id="faq">
     <div class="faq__intro">
       <div class="pill-stack">
-        <span class="pill pill--ghost pill--green">Nos services</span>
-        <span class="pill pill--solid pill--green">Réalisations</span>
+        <span aria-hidden="true" class="pill pill--ghost pill--green">FAQ</span>
+        <span class="pill pill--solid pill--green">FAQ</span>
       </div>
       <h2>Une question ? on a la réponse</h2>
       <p>Vous ne trouvez pas votre réponse ici ? Écrivez-nous, on répond vite et on adore parler de vos projets.</p>
       <a href="#contact" class="btn btn--dark">
         Contactez-nous
-        <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
+        <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
       </a>
     </div>
 
     <div class="faq__list">
       <div class="faq-item">
-        <button class="faq-item__q" aria-expanded="false">
+        <h3 class="faq-item__h"><button class="faq-item__q" aria-expanded="false">
           Quel délai estimé pour un site web ?
           <span class="faq-item__icon"><img src="assets/plus-circle-1.svg" alt=""></span>
-        </button>
+        </button></h3>
         <div class="faq-item__a"><p>Comptez en moyenne 2 à 4 semaines pour un site vitrine, du premier échange à la mise en ligne. On vous donne un planning clair dès le devis validé.</p></div>
       </div>
 
       <div class="faq-item is-open">
-        <button class="faq-item__q" aria-expanded="true">
+        <h3 class="faq-item__h"><button class="faq-item__q" aria-expanded="true">
           J'ai déjà un site web, c'est possible de l'améliorer ?
           <span class="faq-item__icon"><img src="assets/plus-circle-2.svg" alt=""></span>
-        </button>
+        </button></h3>
         <div class="faq-item__a">
           <p>Bien sûr. On commence par un audit rapide (design, vitesse, référencement) pour voir ce qui vaut la peine d'être refait et ce qui peut simplement être amélioré, sans tout reconstruire.</p>
         </div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-item__q" aria-expanded="false">
+        <h3 class="faq-item__h"><button class="faq-item__q" aria-expanded="false">
           On est pas à l'aise devant la caméra, possible ?
           <span class="faq-item__icon"><img src="assets/plus-circle-1.svg" alt=""></span>
-        </button>
+        </button></h3>
         <div class="faq-item__a"><p>Complètement. On adapte le format à votre aisance : voix off, motion design, captation discrète. Le but, c'est que le contenu vous ressemble, pas qu'il vous mette mal à l'aise.</p></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-item__q" aria-expanded="false">
+        <h3 class="faq-item__h"><button class="faq-item__q" aria-expanded="false">
           On communique via WhatsApp ?
           <span class="faq-item__icon"><img src="assets/plus-circle-1.svg" alt=""></span>
-        </button>
+        </button></h3>
         <div class="faq-item__a"><p>Oui, si c'est plus simple pour vous. On s'adapte à votre façon de travailler : WhatsApp, mail, appel ou passage direct au studio à LLN.</p></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-item__q" aria-expanded="false">
+        <h3 class="faq-item__h"><button class="faq-item__q" aria-expanded="false">
           Vous gérez aussi nos réseaux sociaux au quotidien ?
           <span class="faq-item__icon"><img src="assets/plus-circle-1.svg" alt=""></span>
-        </button>
+        </button></h3>
         <div class="faq-item__a"><p>Oui, si besoin : création de contenu, planning de publication et gestion de la communauté. On s'adapte à votre rythme et à vos objectifs.</p></div>
       </div>
 
       <div class="faq-item">
-        <button class="faq-item__q" aria-expanded="false">
+        <h3 class="faq-item__h"><button class="faq-item__q" aria-expanded="false">
           Une autre question? Contactez-nous !
           <span class="faq-item__icon"><img src="assets/plus-circle-1.svg" alt=""></span>
-        </button>
+        </button></h3>
         <div class="faq-item__a"><p>Écrivez-nous directement, on répond en général en moins de 24h et on adore parler de nouveaux projets.</p></div>
       </div>
     </div>
@@ -273,7 +371,7 @@
   <section class="contact-form" id="contact">
     <div class="contact-form__head">
       <div class="pill-stack">
-        <span class="pill pill--ghost pill--blue">Contactez-nous</span>
+        <span aria-hidden="true" class="pill pill--ghost pill--blue">Contactez-nous</span>
         <span class="pill pill--solid pill--blue">Contactez-nous</span>
       </div>
       <h2>On discute de <br class="br-desktop">votre projet ?</h2>
@@ -281,7 +379,7 @@
     </div>
 
     <form class="contact-form__form" id="contactForm" action="https://formsubmit.co/ajax/thibaut.deradigues@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="Nouveau message via trackstudio.be">
+      <input type="hidden" name="_subject" value="Nouveau message via track-studio.be">
       <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       <div class="contact-form__row">
         <label class="contact-form__field">
@@ -299,7 +397,7 @@
       </label>
       <button type="submit" class="btn btn--dark contact-form__submit">
         Envoyer
-        <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
+        <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
       </button>
       <p class="contact-form__status" id="contactFormStatus" role="status"></p>
     </form>
@@ -309,10 +407,10 @@
 
 <footer class="footer">
   <div class="footer__inner">
-    <a href="#" class="nav__logo nav__logo--footer">
-      <img src="assets/logo-full.png" alt="Track Studio" class="nav__logo-mark">
+    <a href="/" class="nav__logo nav__logo--footer" aria-label="Track Studio — accueil">
+      <img src="assets/logo-full.webp" alt="Track Studio" class="nav__logo-mark" width="198" height="141" loading="lazy">
     </a>
-    <nav class="footer__links">
+    <nav class="footer__links" aria-label="Navigation secondaire">
       <a href="#services">Services</a>
       <a href="#realisations">Réalisations</a>
       <a href="#temoignages">Témoignages</a>
@@ -320,14 +418,14 @@
     </nav>
     <a href="#contact" class="btn btn--light">
       On discute ?
-      <span class="btn__arrow"><img src="assets/arrow-up.svg" alt=""></span>
+      <span class="btn__arrow"><img src="assets/arrow-up.svg" alt="" width="24" height="24"></span>
     </a>
   </div>
-  <p class="footer__copyright">Track Studio<img src="assets/icon-copyright.svg" alt="" class="footer__copyright-icon"> — Made in LLN</p>
+  <p class="footer__copyright">Track Studio<img src="assets/icon-copyright.svg" alt="" class="footer__copyright-icon"> — Agence web &amp; marketing digital à Louvain-la-Neuve, Belgique</p>
 </footer>
 
-<div class="cursor-pill" id="cursorPill"></div>
+<div class="cursor-pill" id="cursorPill" aria-hidden="true"></div>
 
-<script src="js/script.js"></script>
+<script src="js/script.js" defer></script>
 </body>
 </html>
